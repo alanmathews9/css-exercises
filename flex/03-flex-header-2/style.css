@@ -43,6 +43,32 @@ a {
   color: rebeccapurple;
 }
 
+.logo{
+  padding-left: 8px;
+}
 ul {
   list-style-type: none;
+}
+
+.header{
+  display:flex;
+  padding: 8px;
+  justify-content: space-between;
+   
+}
+
+ul{
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  
+  gap: 16px;
 }
